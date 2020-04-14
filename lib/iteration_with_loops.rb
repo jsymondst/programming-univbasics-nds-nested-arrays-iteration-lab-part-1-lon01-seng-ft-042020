@@ -6,10 +6,9 @@ def find_even_values(src)
   src.each { |array|
       array.each { |item|
         if item % 2 == 0
-          result_array.push(item)
+          puts item
         end
       }
   }
-  result_array
 
 end
